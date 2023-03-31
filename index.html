@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Infosys</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<style type="text/css">
+	*
+	{
+		margin: 0;
+		padding: 0;
+	}
+	header
+	{
+		width: 100%;
+        height: 100vh;
+      	background: url(bg.png);
+      	background-size: cover;
+      	background-repeat: no-repeat;
+	}
+	nav
+	{
+	  width: 1200px;
+      height: 80px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+	}
+	a
+	{
+		text-decoration: none;
+		direction: none;
+		color: white;
+	}
+	.container
+	{
+		width: 1200px;
+        height: 100vr;
+        margin: auto;
+        color: white;
+
+	}
+	.container h1
+    {
+      font-family: arial;
+      font-size: 10px;
+      font-weight: 200;
+      padding-top:180px ;
+      color: white;
+      /*text-shadow: 2px 1px 5px black;*/
+      text-transform: uppercase;
+    }
+    .container h2
+    {
+      font-family: arial;
+      font-size: 45px;
+      font-weight: 700;
+      color: white;
+      text-shadow: 2px 1px 5px black;
+      text-transform: uppercase;
+    }
+    .container p
+    {
+      color: white;
+      font-size: 25px;
+      word-spacing: 5px;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 1px black;
+      font-family: center;
+      margin-right: 30px;
+    }
+	.btnone
+	{
+	 	width: 150px;
+      height: 50px;
+      background-color: white;
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+      font-family: center;
+      font-weight: bold;
+      transition: 0.5s;
+      justify-content: space-between;
+      align-items: center;
+	}
+  	.btntwo
+	{
+		width: 150px;
+      height: 50px;
+      background-color: green;
+      cursor: pointer;
+      border: none;
+      font-size: 16px;
+      font-family: center;
+      font-weight: bold;
+      transition: 0.5s;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .change_content:after
+    {
+    	content: '';
+    	animation: changetext 10s infinite linear;
+    	color: #70fff9;
+    }
+    @keyframes changetext
+    {
+    	0%{content: "Bangalore India";}
+    	20%{content: "Indore India";}
+    	35%{content: "Ahmadabad India";}
+    	60%{content: "Gujrat India";}
+    	80%{content: "Dehli India";}
+    	100%{content: "Pune India";}
+    }
+    nav .logo
+    {
+    	color: white;
+    }
+    footer
+    {
+    	text-align: center;
+      	padding: 8px;
+      	color: black;
+      	padding-bottom: 400px;
+    }
+    .footer-content h3
+    {
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 25;
+    }
+    img
+    {
+    	width: 100%;
+    	height: 50vh;
+    } 
+</style>
+<body>
+	<header>
+		<nav>
+			<div class="logo"><h1 class="animation infinite heartBeat">INFOSYS</h1></div>
+
+			<a href="file:///home/rails/website/infosys/about.html", target="_blank">About</a>
+			<a href="file:///home/rails/website/infosys/company.html", target="_blank">Company</a>
+			<a href="file:///home/rails/website/infosys/Dedails.html", target="_blank">Dedails</a>
+			<a href="file:///home/rails/website/infosys/prectice.html", target="_blank">Employees</a>
+			<a href="file:///home/rails/website/infosys/product.html", target="_blank">Product and Service</a>
+			<a href="/home/rails/website/infosys/taining.html", target="_blank">Tranning</a>
+			<a href="file:///home/rails/website/infosys/Contact.html">Contact</a>
+		</nav>
+		<div class="container">
+			<h1>Welcome to infosys</h1>
+			<h2>Web development company in <span class="change_content"></span></h2>
+			<p>Complex Problems....! Simple Solution....!</p>
+		</div>
+
+
+		
+		<footer>
+			<a href="file:///home/rails/website/infosys/see.html", target="_blank"><button class="btnone">See more</button></a> or <a href="file:///home/rails/website/infosys/sign.html", target="_blank"><button class="btntwo"> signup</button></a>
+			<h3>Infosys Developer</h3>
+        </footer>
+
+	</header>
+	<img src="bg.png">
+</body>
+</html>
